@@ -48,14 +48,13 @@ body {
     .presentacion-inicio__image-column {
         display: flex;
         margin-bottom: 0; 
-        margin-right: 40px;
     }
 
 
 .presentacion-inicio img {
     max-width: 100%;
     border-radius: 50%; /* Opcional: para hacer la imagen redonda */
-    width: 100%
+    width: 100%;
     object-fit: contain;
 }
 
@@ -115,7 +114,8 @@ p {
         }
 
         .presentacion-inicio__image-column {
-            justify-content: center; 
+            justify-content: center;
+            margin-right: 0px;
             margin-bottom: 20px; /* Espacio entre imagen y texto en móvil */
         }
 
